@@ -1,0 +1,215 @@
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #c56cf0;
+  --main-color-alt: #1787e0;
+  --main-transition: 0.3s;
+  --main-padding-top: 100px;
+  --main-padding-bottom: 100px;
+  --section-background: #ececec;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Cairo", sans-serif;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* End Global Rules */
+/* start header   */
+.header {
+  background-image: url(/images/laptop-camera-colorful-background.jpg);
+  background-size: cover;
+}
+.header .text2 {
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+.header .text2 p {
+  color: #dbdada;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 2;
+  border-radius: 3px;
+}
+.header .text2 a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: var(--main-color);
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+}
+/* خلفية سوداء شفافة */
+.content {
+  background-color: rgba(99, 47, 5, 0.534); /* أسود مع شفافية 50% */
+  color: white; /* لون النص أبيض ليكون واضحاً على الخلفية السوداء */
+  border-radius: 10px; /* حواف دائرية اختيارية */
+}
+/* End header  */
+/* Start About */
+.about {
+  background-color: var(--main-color);
+}
+.about .container a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-radius: 20px;
+}
+.svg123 {
+  color: var(--main-color);
+}
+.services .row p {
+  color: #777;
+}
+.text55 {
+  position: relative;
+}
+.text55::after {
+  content: "";
+  position: absolute;
+  bottom: 31px;
+  left: 50%;
+  width: 82px;
+  height: 2px;
+  background-color: var(--main-color);
+  transform: translateX(-50%);
+}
+/* End About  */
+/* Start Portoflio */
+#portfolio .container-fluid {
+  max-width: 1920px;
+}
+
+#portfolio .container-fluid .portfolio-box {
+  position: relative;
+  display: block;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgb(205, 132, 241, 0.9);
+  -webkit-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+  text-align: center;
+}
+
+#portfolio
+  .container-fluid
+  .portfolio-box
+  .portfolio-box-caption
+  .project-category {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#portfolio
+  .container-fluid
+  .portfolio-box
+  .portfolio-box-caption
+  .project-name {
+  font-size: 1.2rem;
+}
+
+#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
+/* End Portofilo */
+/* Start video */
+.video {
+  background-color: #343a40;
+}
+.video .para {
+  color: #777;
+}
+.video .container a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-radius: 20px;
+}
+.video .text66 {
+  position: relative;
+}
+.video .text66::after {
+  content: "";
+  position: absolute;
+  bottom: 31px;
+  left: 50%;
+  width: 82px;
+  height: 2px;
+  background-color: white;
+  transform: translateX(-50%);
+}
+/* end video */
+/* Start contact */
+.contact .text666 {
+  position: relative;
+}
+.contact .text666::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  width: 82px;
+  height: 2px;
+  background-color: var(--main-color);
+  transform: translateX(-50%);
+}
+.contact p {
+  color: #777;
+}
+/* End contact */
+.main-collor {
+  color: var(--main-color);
+}
