@@ -40,7 +40,7 @@ body {
 /* End Global Rules */
 /* start header   */
 .header {
-  background-image: url(/images/laptop-camera-colorful-background.jpg);
+  background-image: url(../images/laptop-camera-colorful-background.jpg);
   background-size: cover;
 }
 .header .text2 {
